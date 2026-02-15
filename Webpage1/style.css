@@ -46,7 +46,7 @@ header ul {
   border-radius: 8px;
   border-style: hidden;
 }
-.Upper_portion .button { /*now we control the actual position of the button*/
+.Upper_portion .button1 { /*now we control the actual position of the button*/
   margin-top: -35px;
 }
 .main_image {
@@ -117,12 +117,74 @@ figure {
     align-items: center;
     justify-content: center;
 }
+.cite .david {
+    font-style: normal;
+}
 .cite {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 25px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 443px;
+    margin-right: 45px;
     align-items: center;
+    flex-wrap: nowrap;
+}
+.cite::after {
+    content: ", Hardest Man Alive.";
+    font-style: italic;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    
+}
+.Call_to_action {
+    border: 1px hidden #3882f6;
+    background-color: #3882f6;
+    color: white;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.cta {
+    /* background-color: peru; */
+    /* width: 700px; */
+    height: 80px;
+    padding-bottom: 25px;
+    /* padding-left: 125px; */
+}
+.Call_to_action h3 {
+    font-size: 25px;
+    font-weight: 900;
+    /* background-color: purple; */
+    height: 5px;
+}
+.Call_to_action p {
+    /* background-color: red; */
+    font-size: 18px;
+    height: 0;
+}
+.Call_to_action .button2 { /*moving the button solo (Sign up)*/
+    /* padding-top: 65px; */
+    /* background-color: yellowgreen; */
+}
+.Call_to_action button { /*Adjusting the button itself*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 6px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
 }
