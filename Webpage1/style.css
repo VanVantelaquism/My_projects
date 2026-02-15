@@ -157,10 +157,8 @@ figure {
 }
 .cta {
     /* background-color: peru; */
-    /* width: 700px; */
     height: 80px;
     padding-bottom: 25px;
-    /* padding-left: 125px; */
 }
 .Call_to_action h3 {
     font-size: 25px;
@@ -173,10 +171,6 @@ figure {
     font-size: 18px;
     height: 0;
 }
-.Call_to_action .button2 { /*moving the button solo (Sign up)*/
-    /* padding-top: 65px; */
-    /* background-color: yellowgreen; */
-}
 .Call_to_action button { /*Adjusting the button itself*/
     display: flex;
     justify-content: center;
@@ -187,4 +181,15 @@ figure {
     border-radius: 8px;
     font-size: 18px;
     font-weight: 900;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: lightgray;
+    padding: 25px;
+    font-size: 25px;
 }
